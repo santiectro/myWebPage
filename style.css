@@ -153,7 +153,7 @@ a:hover {
 .project-img img {
   margin-left: 30%;
   height: 260px;
-  width: 260px;
+  width: 70%;
   border-radius: 0%;
 }
 
@@ -192,6 +192,11 @@ a:hover {
 .card__back {
   transform: rotateY(180deg);
 }
+
+.text-back {
+  height: 80%;
+  width: 80%;
+}
 .card__front, .card__back {
   position: absolute;
   top: 0;
@@ -216,8 +221,9 @@ a:hover {
 .card p{
   background-color: rgba(255, 255, 255, 0.7);
   color: black;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Hind';
+  justify-self: center;
 
 }
 
